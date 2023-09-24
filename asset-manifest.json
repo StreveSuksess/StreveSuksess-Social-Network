@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/StreveSuksess-Social-Network/static/css/main.93cab31a.css",
-    "main.js": "/StreveSuksess-Social-Network/static/js/main.3701404a.js",
+    "main.js": "/StreveSuksess-Social-Network/static/js/main.e8bbabc6.js",
     "static/js/364.cf0bb2ff.chunk.js": "/StreveSuksess-Social-Network/static/js/364.cf0bb2ff.chunk.js",
     "static/js/787.3bf0dcc2.chunk.js": "/StreveSuksess-Social-Network/static/js/787.3bf0dcc2.chunk.js",
     "index.html": "/StreveSuksess-Social-Network/index.html",
     "static/media/loading.svg": "/StreveSuksess-Social-Network/static/media/loading.7ba67d0bbb94bbcda3ea4679c9bc97a1.svg",
     "main.93cab31a.css.map": "/StreveSuksess-Social-Network/static/css/main.93cab31a.css.map",
-    "main.3701404a.js.map": "/StreveSuksess-Social-Network/static/js/main.3701404a.js.map",
+    "main.e8bbabc6.js.map": "/StreveSuksess-Social-Network/static/js/main.e8bbabc6.js.map",
     "364.cf0bb2ff.chunk.js.map": "/StreveSuksess-Social-Network/static/js/364.cf0bb2ff.chunk.js.map",
     "787.3bf0dcc2.chunk.js.map": "/StreveSuksess-Social-Network/static/js/787.3bf0dcc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.93cab31a.css",
-    "static/js/main.3701404a.js"
+    "static/js/main.e8bbabc6.js"
   ]
 }
