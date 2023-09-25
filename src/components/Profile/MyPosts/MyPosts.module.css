@@ -1,0 +1,58 @@
+.title {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.area {
+    background-color: #EDEDED;
+    color: #232323;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    min-height: 100px;
+    max-width: 98%;
+    border: none;
+    resize: vertical;
+}
+
+.area::placeholder {
+    color: #9b9f9f;
+}
+
+.button {
+    background-color: #232323;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #232323;
+    transition: all .3s;
+    padding: 10px 40px;
+    display: inline;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    align-self: end;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #232323;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    transition: all .25s;
+}
+
+.posts.animate {
+    opacity: 0;
+}

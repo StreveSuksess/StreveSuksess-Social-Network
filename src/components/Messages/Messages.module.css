@@ -1,0 +1,238 @@
+.messages {
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.titleContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+}
+
+.back:hover svg path {
+    fill: #000;
+}
+
+.back span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444A58;
+    transition: all .3s;
+}
+
+.back:hover span {
+    color: #000;
+}
+
+.dialogs {
+    padding-left: 30px;
+    display: flex;
+    gap: 30px;
+    height: 100%;
+    animation: ease-in-out;
+    animation-name: translateAnimation;
+    animation-duration: 1s;
+}
+
+.dialogs::-webkit-scrollbar {
+    width: 0;
+}
+
+.companion__ul {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.chat {
+    padding: 20px 10px 20px 20px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+    position: relative;
+    max-height: 70vh;
+    height: 70vh;
+    animation: ease-in-out;
+    animation-name: translateAnimation;
+    animation-duration: 1s;
+    width: 100%;
+}
+
+.message__ul {
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-height: 100%;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.textarea {
+    border: none;
+    resize: vertical;
+    background-color: #ffffff;
+    color: #232323;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 30px 10px 10px;
+    border-radius: 10px;
+    min-height: 20px;
+    height: 20px;
+}
+
+.send {
+    position: absolute;
+    bottom: 28px;
+    right: 30px;
+    cursor: pointer;
+}
+
+.send svg {
+    width: 16px;
+    height: 16px;
+}
+
+.send:hover svg g path {
+    fill: #000;
+}
+
+.noMessages {
+    height: 100%;
+    margin-top: 30%;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.addChat {
+    position: relative;
+    padding-left: 20px;
+}
+
+.addChat::before {
+    content: "+";
+    font-size: 22px;
+    font-weight: 600;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #aeaeae;
+    transition: all .3s;
+}
+
+.addChat h5 {
+    color: #aeaeae;
+    font-size: 22px;
+    font-weight: 400;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.addChat:hover::before {
+    color: #232323;
+    font-size: 26px;
+}
+
+.addChat:hover h5 {
+    font-size: 26px;
+    color: #232323;
+    font-weight: 600;
+}
+
+
+@keyframes translateAnimation {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .dialogsWithChat {
+        padding-left: 0px;
+    }
+
+    .chat {
+        max-height: 78vh;
+        height: 78vh;
+        width: 97%;
+    }
+
+    .messages {
+        position: fixed;
+        top: 0;
+        padding-top: 25px;
+        z-index: 10;
+        background-color: #fff;
+        max-width: 96%;
+    }
+
+    .messagesWithChat {
+        outline: white 300px solid;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .messages {
+        max-width: 94%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .chat {
+        width: 96%;
+    }
+
+    .messages {
+        max-width: 93%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .messages {
+        max-width: 92%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .chat {
+        width: 94%;
+    }
+
+    .messages {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .messages {
+        max-width: 94%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .messages {
+        max-width: 93%;
+    }
+}

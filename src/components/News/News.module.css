@@ -1,0 +1,24 @@
+.news {
+    width: 100%;
+    padding-bottom: 200px;
+    animation: ease;
+    animation-name: translateAnimation;
+    animation-duration: .3s;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+@keyframes translateAnimation {
+    0% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

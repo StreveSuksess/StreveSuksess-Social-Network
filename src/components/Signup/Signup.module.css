@@ -1,0 +1,258 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 30px 0;
+    position: relative;
+    width: 100%;
+}
+
+.inner {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+    width: 50%;
+    min-height: 50%;
+}
+
+.background {
+    position: absolute;
+    width: 50%;
+    height: 94%;
+    left: 25%;
+    top: 30px;
+    border-radius: 10px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    z-index: -1;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    color: #ffffff;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.svg {
+    width: 40px;
+}
+
+.fieldContainer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.inputContainer {
+    width: 100%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.input, .input[type=file] + p {
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 100%;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 20px;
+    color: #232323;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    transition: all .3s;
+}
+
+.input::placeholder {
+    color: #aeaeae;
+}
+
+.input:focus {
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.input[type=file] {
+    z-index: 1;
+    opacity: 0;
+    display: block;
+    position: relative;
+}
+
+.input[type=file] + p {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.input[type=file] + p {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.button {
+    width: 75%;
+    align-self: center;
+    margin: 9% 0;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.button:hover {
+    background: rgba(255, 255, 255, 0);
+}
+
+.invalidField {
+    /*background: #ff3333;*/
+}
+
+.warning {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    opacity: 0.7;
+    right: -340px;
+    top: -10px;
+    padding: 20px;
+    width: 250px;
+    animation: ease-in-out;
+    animation-name: warningAnimation;
+    animation-duration: 1s;
+}
+
+.warning p {
+    text-align: center;
+}
+
+.loggedContainer {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.loggedButton {
+    align-self: center;
+    margin-top: 20%;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: none;
+    padding: 20px 100px;
+    text-align: center;
+    font-size: 25px;
+    color: #232323;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.loggedButton:hover {
+    transform: scale(1.5);
+}
+
+@keyframes warningAnimation {
+    0% {
+        transform: translateX(200px) scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0) scale(1);
+        opacity: 0.7;
+    }
+}
+
+.loginLink {
+    color: #fff;
+    text-decoration: underline;
+    text-align: center;
+    display: block;
+    margin-bottom: 5%;
+    transition: all .3s;
+}
+
+.loginLink:hover {
+    scale: 1.2;
+}
+
+@media screen and (max-width: 1200px) {
+    .inner, .background {
+        width: 90%;
+    }
+
+
+    .background {
+        left: 5%;
+    }
+
+    .title {
+        margin: 20px 0;
+    }
+
+    .fieldContainer {
+        padding: 20px 10px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .inner, .background {
+        width: 90%;
+    }
+
+    .background {
+        left: 5%;
+    }
+
+    .title {
+        margin: 20px 0;
+    }
+
+    .fieldContainer {
+        padding: 20px 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .inner, .background {
+        width: 90%;
+    }
+
+    .background {
+        left: 5%;
+    }
+
+    .warning {
+        left: 40px;
+        top: -65px;
+        right: auto;
+    }
+}

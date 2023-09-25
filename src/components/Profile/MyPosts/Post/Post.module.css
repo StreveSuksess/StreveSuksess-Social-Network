@@ -1,0 +1,122 @@
+.button:hover {
+    background-color: #fff;
+    color: #232323;
+}
+
+.post {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    position: relative;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 5px;
+}
+
+.message {
+    font-size: 16px;
+    font-weight: 400;
+    word-break: break-word;
+    transition: all .25s;
+}
+
+.message.afterAnimate {
+    animation: ease-in-out;
+    animation-name: opacityAnimation;
+    animation-duration: 1s;
+}
+
+.message.animate {
+    opacity: 0;
+}
+
+.time {
+    align-self: end;
+    color: #aeaeae;
+}
+
+.name {
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.editButton {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: transparent;
+    border: 0;
+    transition: all .3s;
+}
+
+.editButton:hover {
+    scale: 1.1;
+}
+
+.deleteButton {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+    background: transparent;
+    border: 0;
+    transition: all .3s;
+}
+
+.deleteButton:hover {
+    scale: 1.1;
+}
+
+.editForm {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    animation: ease-in-out;
+    animation-name: opacityAnimation;
+    animation-duration: 0.5s;
+    transition: all .5s;
+}
+
+.editForm.afterAnimate {
+    opacity: 0;
+}
+
+.input {
+    background-color: #EDEDED;
+    color: #232323;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+.checkmark {
+    border: none;
+    background: transparent;
+}
+
+@keyframes opacityAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,395 @@
+.img {
+    width: 100%;
+    border-radius: 10px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 30px 0;
+    position: relative;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.title {
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.description__li a, .description__li span {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.linkToProfile {
+    margin-left: auto;
+    font-size: 16px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.5);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 50px;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    color: #232323;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    transition: all .3s;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+
+.linkToProfile:hover {
+    scale: 1.1;
+}
+
+.edit {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.edit button {
+    color: #aeaeae;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all .3s;
+}
+
+.edit svg path {
+    transition: all .3s;
+}
+
+
+.edit:hover button {
+    color: #000000;
+}
+
+.edit:hover svg path {
+    fill: #000000;
+}
+
+.formUl, .nameContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.nameContainer {
+    margin-bottom: 7px;
+}
+
+.input {
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 10px;
+    transition: all .3s;
+}
+
+.input:hover {
+    box-shadow: none;
+}
+
+.profileImgContainer {
+    position: relative;
+}
+
+.profileImgInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+}
+
+.profileImgInput:hover + p {
+    opacity: 1;
+}
+
+.profileImgInput + p {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    background: #000;
+    opacity: 0.5;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    animation: ease;
+    animation-name: opacityAnimation;
+    animation-duration: .3s;
+}
+
+.profileImgInput + p span {
+    font-size: 100px;
+    color: #aeaeae;
+    font-weight: 700;
+    text-align: center;
+}
+
+.avatarContainer {
+    position: relative;
+}
+
+.avatarInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+    opacity: 0;
+}
+
+.avatarInput:hover + p {
+    opacity: 1;
+}
+
+
+.avatarInput + p {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background: #000;
+    opacity: 0.5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s;
+    animation: ease;
+    animation-name: opacityAnimation;
+    animation-duration: .3s;
+}
+
+.avatarInput + p span {
+    font-size: 100px;
+    color: #aeaeae;
+    font-weight: 700;
+    text-align: center;
+}
+
+.haveProfileImg {
+    font-size: 30px !important;
+}
+
+.haveAvatar {
+    font-size: 20px !important;
+}
+
+.submit {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 rgba(168, 228, 160, 1);
+    margin-top: 20px;
+    color: #232323;
+    transition: all .3s;
+    font-weight: 500;
+}
+
+.submit:hover {
+    box-shadow: none;
+}
+
+.form {
+    animation: ease;
+    animation-name: translateAnimation;
+    animation-duration: .3s;
+}
+
+.inputContainer {
+    width: 100%;
+    margin-right: 20px;
+    position: relative;
+}
+
+.warning {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 30px;
+    opacity: 0.7;
+    right: -270px;
+    top: -0px;
+    padding: 10px;
+    width: 250px;
+    animation: ease-in-out;
+    animation-name: warningAnimation;
+    animation-duration: 1s;
+}
+
+.warning p {
+    text-align: center;
+}
+
+.description__following {
+    text-decoration: underline;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.description__following:hover {
+    transform: scale(1.2);
+}
+
+
+@keyframes translateAnimation {
+    0% {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes opacityAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.5;
+    }
+}
+
+@keyframes warningAnimation {
+    0% {
+        transform: translateX(200px) scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0) scale(1);
+        opacity: 0.7;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about {
+        gap: 20px;
+    }
+
+    .warning {
+        left: 0px;
+        top: -45px;
+        right: auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .img {
+        height: 200px;
+    }
+
+    .profileImgInput + p {
+        height: 200px;
+    }
+
+    .profileImgInput {
+        height: 200px;
+    }
+
+
+    .edit {
+        position: absolute;
+        top: -30px;
+        right: 0;
+    }
+
+    .linkToProfile {
+        position: absolute;
+        bottom: -60px;
+        right: 0;
+    }
+
+    .about {
+        margin: 30px 0;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img {
+        position: absolute;
+        top: -40px;
+        width: 100vw;
+        height: 250px;
+        margin-left: -10px;
+        border-radius: 0px;
+    }
+
+    .profileImgInput + p {
+        position: absolute;
+        top: -40px;
+        width: 100vw;
+        height: 250px;
+        margin-left: -10px;
+        border-radius: 0px;
+    }
+
+    .profileImgInput {
+        position: absolute;
+        top: -40px;
+        width: 100vw;
+        height: 250px;
+        margin-left: -10px;
+        border-radius: 0px;
+    }
+
+    .about {
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .edit {
+        position: static;
+    }
+
+    .linkToProfile {
+        position: static;
+    }
+
+    .avatar {
+        width: 200px;
+        height: 200px;
+    }
+
+    .avatarInput + p {
+        width: 200px;
+        height: 200px;
+    }
+}

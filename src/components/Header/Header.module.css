@@ -1,0 +1,62 @@
+.header {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 800;
+    display: block;
+    transition: all .3s;
+    position: relative;
+}
+
+.treve, .uksess {
+    position: absolute;
+    opacity: 0;
+}
+
+.treve {
+    left: 23px;
+    top: -20px;
+}
+
+.uksess {
+    right: -127px;
+    bottom: -20px;
+}
+
+.logo > span {
+    transition: all .5s;
+}
+
+.logo:hover {
+    scale: 1.5;
+    transform: translateX(-65px);
+}
+
+.logo:hover .s:nth-child(1) {
+    padding-right: 98px;
+}
+
+.logo:hover .treve {
+    opacity: 1;
+    top: 0;
+}
+
+.logo:hover .uksess {
+    opacity: 1;
+    bottom: 0;
+}
+
+@media screen and (max-width: 700px) {
+    .logo:hover {
+        scale: 1.2;
+    }
+
+    .header {
+        padding: 15px 0;
+    }
+}

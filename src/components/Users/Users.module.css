@@ -1,0 +1,78 @@
+.users {
+    width: 100%;
+    padding-bottom: 200px;
+}
+
+.usersHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+}
+
+.searchContainer svg {
+    cursor: pointer;
+}
+
+.usersHeader input {
+    background-color: #EDEDED;
+    color: #232323;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 98%;
+    border: none;
+    opacity: 0;
+    transition: all .3s;
+}
+
+.usersHeader .showInput {
+    opacity: 1;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.users__ul {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.button {
+    display: block;
+    -webkit-backdrop-filter: blur(20px);
+    background-color: #232323;
+    color: #fff;
+    border-radius: 10px;
+    border: 1px solid #232323;
+    transition: all .3s;
+    padding: 20px 40px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #232323;
+}
+
+@media screen and (max-width: 500px) {
+    .usersHeader input {
+        max-width: 65%;
+    }
+}

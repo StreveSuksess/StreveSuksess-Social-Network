@@ -1,0 +1,10 @@
+.profile {
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+@media screen and (max-width: 900px) {
+    .navigation {
+        display: none;
+    }
+}

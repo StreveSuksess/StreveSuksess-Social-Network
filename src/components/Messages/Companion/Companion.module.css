@@ -1,0 +1,51 @@
+.companion {
+    position: relative;
+    padding-left: 20px;
+}
+
+.companion:hover::before {
+    top: 13px;
+    background-color: #232323;
+}
+
+.companion.active::before {
+    top: 13px;
+    background-color: #232323;
+}
+
+
+.companion::before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #aeaeae;
+    transition: all .3s;
+}
+
+.name {
+    color: #aeaeae;
+    font-size: 22px;
+    font-weight: 400;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.companion.active .name {
+    font-size: 26px;
+    color: #232323;
+    font-weight: 600;
+}
+
+.companion:hover .name {
+    font-size: 26px;
+    color: #232323;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 900px) {
+}

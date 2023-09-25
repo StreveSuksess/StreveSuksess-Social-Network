@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98181337-a5b6-4259-ad4f-6dc844b18aee" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="com.haulmont.rcb.palette" />
+        <option value="com.haulmont.rcb.previews" />
+        <option value="com.haulmont.rcb.index" />
+        <option value="com.haulmont.rcb.useInitial" />
+        <option value="com.haulmont.rcb.README" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/public/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/firebase.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBowerSettings">
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsbtTreeLayoutManager">
+    <layout place="tools.popupnpm">
+      <scroll-view-position x="0" y="0" />
+      <selected-paths>
+        <path>
+          <id value="$PROJECT_DIR$/package.json" />
+          <id value="test" />
+        </path>
+      </selected-paths>
+    </layout>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
+  <component name="ProjectId" id="2Pe8YDvFZQ7wU5KZnZ2RGar5ora" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ReactCreateComponentLastSelected&quot;: &quot;functionDeclarationComponent&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/layout/react/first-react-app/src/images&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/layout/react/first-react-app/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettier.import.notification.dismissed&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.new.ui&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\WebStorm 2023.1.1\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\layout\react\first-react-app\src\images" />
+      <recent name="D:\layout\react\first-react-app\src\components\Messages\Message" />
+      <recent name="D:\layout\react\first-react-app\src\components\Messages\Companion" />
+      <recent name="D:\layout\react\first-react-app\src\components" />
+      <recent name="D:\layout\react\first-react-app\src\components\News" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\layout\react\first-react-app\src\images" />
+      <recent name="D:\layout\react\first-react-app\src\components\Messages" />
+      <recent name="D:\layout\react\first-react-app\src\redux" />
+      <recent name="D:\layout\react\first-react-app\src\components\Profile" />
+      <recent name="D:\layout\react\first-react-app\src\components\Navigation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="ProfileInfoContainer.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/components/Profile/ProfileInfo/ProfileInfoContainer.jsx" working-dir="$PROJECT_DIR$/src/components/Profile/ProfileInfo">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="Node.js.ProfileInfoContainer.jsx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\PC\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98181337-a5b6-4259-ad4f-6dc844b18aee" name="Changes" comment="" />
+      <created>1683806238452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683806238452</updated>
+      <workItem from="1683806269655" duration="80000" />
+      <workItem from="1683806401074" duration="98000" />
+      <workItem from="1683807338858" duration="34000" />
+      <workItem from="1683807662837" duration="1641000" />
+      <workItem from="1683809507540" duration="117000" />
+      <workItem from="1683809643494" duration="606000" />
+      <workItem from="1683810272231" duration="7112000" />
+      <workItem from="1683891647304" duration="1214000" />
+      <workItem from="1683892915443" duration="6155000" />
+      <workItem from="1683901392014" duration="80000" />
+      <workItem from="1683901487440" duration="3648000" />
+      <workItem from="1683909338118" duration="110000" />
+      <workItem from="1683909466719" duration="262000" />
+      <workItem from="1683909746271" duration="34000" />
+      <workItem from="1683909796691" duration="60000" />
+      <workItem from="1683909876162" duration="145000" />
+      <workItem from="1683910043675" duration="1480000" />
+      <workItem from="1683912296403" duration="8000" />
+      <workItem from="1683912322382" duration="140000" />
+      <workItem from="1683912505739" duration="419000" />
+      <workItem from="1683912942994" duration="1476000" />
+      <workItem from="1684050462299" duration="24287000" />
+      <workItem from="1684233879771" duration="10977000" />
+      <workItem from="1684330561376" duration="12943000" />
+      <workItem from="1684503246419" duration="14883000" />
+      <workItem from="1684752247194" duration="7987000" />
+      <workItem from="1684925337816" duration="14726000" />
+      <workItem from="1685030432895" duration="7949000" />
+      <workItem from="1685371110302" duration="8796000" />
+      <workItem from="1685604004438" duration="3818000" />
+      <workItem from="1685633027655" duration="5134000" />
+      <workItem from="1685679005120" duration="8174000" />
+      <workItem from="1685711943105" duration="10507000" />
+      <workItem from="1685771124891" duration="3852000" />
+      <workItem from="1685859025208" duration="2360000" />
+      <workItem from="1685885760813" duration="3077000" />
+      <workItem from="1685940103143" duration="2972000" />
+      <workItem from="1685959743357" duration="13032000" />
+      <workItem from="1686028089374" duration="10061000" />
+      <workItem from="1686109820413" duration="5167000" />
+      <workItem from="1686240283806" duration="1351000" />
+      <workItem from="1686375290770" duration="3843000" />
+      <workItem from="1686998905740" duration="1836000" />
+      <workItem from="1687412961435" duration="11095000" />
+      <workItem from="1690199204066" duration="711000" />
+      <workItem from="1690199957688" duration="4681000" />
+      <workItem from="1690264330511" duration="16380000" />
+      <workItem from="1690355343059" duration="6951000" />
+      <workItem from="1690377381590" duration="8681000" />
+      <workItem from="1690433079562" duration="7184000" />
+      <workItem from="1690517684759" duration="26982000" />
+      <workItem from="1690606959880" duration="5567000" />
+      <workItem from="1690728368839" duration="4675000" />
+      <workItem from="1690779250696" duration="8439000" />
+      <workItem from="1690872955392" duration="24914000" />
+      <workItem from="1690951675325" duration="10777000" />
+      <workItem from="1691492756049" duration="3758000" />
+      <workItem from="1691554072523" duration="21175000" />
+      <workItem from="1691654423708" duration="2819000" />
+      <workItem from="1691732596026" duration="3036000" />
+      <workItem from="1692007456132" duration="12925000" />
+      <workItem from="1692087520700" duration="11475000" />
+      <workItem from="1692193242728" duration="3480000" />
+      <workItem from="1692616686708" duration="13410000" />
+      <workItem from="1692876115806" duration="8419000" />
+      <workItem from="1692957524440" duration="9785000" />
+      <workItem from="1693208726895" duration="10874000" />
+      <workItem from="1693456820959" duration="588000" />
+      <workItem from="1693467744569" duration="10300000" />
+      <workItem from="1693479793028" duration="216000" />
+      <workItem from="1693480096308" duration="193000" />
+      <workItem from="1693480312473" duration="4757000" />
+      <workItem from="1693493085615" duration="2780000" />
+      <workItem from="1693550660955" duration="4343000" />
+      <workItem from="1693836146354" duration="7637000" />
+      <workItem from="1694012272359" duration="7584000" />
+      <workItem from="1694614684804" duration="1391000" />
+      <workItem from="1694787035691" duration="6586000" />
+      <workItem from="1694948228837" duration="17041000" />
+      <workItem from="1695037458118" duration="5653000" />
+      <workItem from="1695120873559" duration="7270000" />
+      <workItem from="1695298875213" duration="8779000" />
+      <workItem from="1695311866454" duration="4375000" />
+      <workItem from="1695528556631" duration="3913000" />
+      <workItem from="1695533008636" duration="2865000" />
+      <workItem from="1695558229517" duration="2182000" />
+      <workItem from="1695562943899" duration="5997000" />
+      <workItem from="1695573740568" duration="1560000" />
+      <workItem from="1695646025683" duration="5698000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+</project>
